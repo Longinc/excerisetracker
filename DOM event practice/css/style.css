@@ -7,39 +7,60 @@
 body {
     font-family: Nanum Gothic, sans-serif;
     background-color: #fff;
-
-}
-
-
-}
-
-.flex-columns .row {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+.flex-columns {
+    display: flex;
+    padding: 200px
+
+}
+
+.column {
+
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+
+
+.item {
+
+    margin: 10px;
+}
+
+.item-2 {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+label {
+    display: block;
+    padding-bottom: 2px;
+}
+input {
+    width: 15em;
+    border: 2px solid #f0f0f0;
+    padding: 4px;
+    border-radius: 3px;
+    font-size: 15px
+
+}
+
+img {
     width: 100%;
-}
 
-.flex-columns .column {
-    display: flex;
-}
-
-.flex-columns .column .column-1 {
-    display: flex;
-    background: #f4f4f4;
-
-
-}
-
-.flex-columns .column .column-img {
-    width: 400px;
-    height: 400px;
-    object-fit:
-
-}
-
-.flex-columns .column .column-img .mainImage {
-    max-height: 100%;
-    max-width: 100%;
 }
 
 
@@ -48,5 +69,12 @@ body {
     border: 1px solid #333;
     padding: 10px 20px;
     font-size: 16px;
-    border-radius: 5px
+    border-radius: 5px;
+    width: 15em
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: #70706e;
+    color: #fff;
 }
